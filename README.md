@@ -10,6 +10,20 @@ Do Polish cities show different pollution patterns depending on the season and w
 
 The project aims to explore how air pollution varies across cities and throughout the year, and whether meteorological conditions such as temperature, humidity, wind and precipitation help explain these variations.
 
+## Project objectives
+
+The main objective of this project is to build an end-to-end data pipeline to collect, store, process and analyse air quality and weather data from seven Polish cities.
+
+The specific objectives are:
+
+1. **Data collection:** Retrieve historical and daily air quality data from the Open-Meteo API, and integrate historical weather data for the same locations.
+2. **Data storage:** Store the collected data in PostgreSQL, ensuring consistency and preventing duplicate records.
+3. **Data processing:** Build a structured data pipeline to clean, validate and transform raw data into reliable analytical datasets.
+4. **Pipeline orchestration:** Automate data ingestion and processing workflows using Apache Airflow.
+5. **Exploratory analysis:** Identify seasonal and geographical patterns in air pollution and investigate relationships between pollutant concentrations and weather conditions.
+6. **Data visualisation:** Develop an interactive dashboard to communicate the main findings.
+7. **Predictive analysis:** Explore whether historical pollution and weather data can be used to predict PM2.5 concentrations.
+
 ## Cities
 
 The project currently covers seven Polish cities:
