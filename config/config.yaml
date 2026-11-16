@@ -1,0 +1,16 @@
+
+database:
+  db_connection_url: "postgresql+psycopg://{username}:{password}@localhost:5432/air_quality"
+
+air_quality:
+  table_name: measurements
+  cities:
+    Warszawa: {latitude: 52.2297, longitude: 21.0122}
+    Krakow:   {latitude: 50.0647, longitude: 19.9450}
+    Wroclaw:  {latitude: 51.1079, longitude: 17.0385}
+    Gdansk:   {latitude: 54.3520, longitude: 18.6466}
+    Poznan:   {latitude: 52.4064, longitude: 16.9252}
+    Katowice: {latitude: 50.2649, longitude: 19.0238}
+    Lodz:     {latitude: 51.7592, longitude: 19.4560}
+
+schema_name: "air_quality"

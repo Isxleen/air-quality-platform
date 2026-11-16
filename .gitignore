@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Generated data
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# Cache
+.pytest_cache/
+.ruff_cache/
+.cache*

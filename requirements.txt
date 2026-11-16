@@ -1,0 +1,10 @@
+openmeteo-requests
+requests-cache
+retry-requests
+pandas
+numpy
+SQLAlchemy>=2.0
+psycopg2-binary
+PyYAML
+tzdata
+ 
